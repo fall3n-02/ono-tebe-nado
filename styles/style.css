@@ -1,1 +1,76 @@
-/* место для вашего кода */
+.header {
+  margin: 92px 24px 96px 24px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 105px;
+}
+
+.menu_list_header {
+  list-style-type: circle;
+  display: flex;
+  gap: 31.48px;
+}
+
+.list_elem_no_dot {
+  list-style-type: none;
+}
+
+.first_elem {
+  margin-left: 25px;
+}
+
+.info {
+  list-style-type: none;
+  max-width: 240px;
+  line-height: 24.3px;
+  margin-right: 25px;
+  margin-left: auto;
+  
+}
+
+.no_underline {
+  text-decoration: none;
+}
+
+.logo_header {
+  height: 100%;
+  width: 140px;
+  margin: 0 auto;
+}
+
+.elem_wrap {
+  text-wrap: wrap;
+}
+
+.jambotron {
+  background-image: url("images/cover.jpg");
+  width: 100%;
+  height: 700;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 165px 50px 0px 50px;
+}
+
+.align_left {
+  text-align: left;
+}
+
+.align_center {
+  text-align: center;
+}
+
+.align_right {
+  text-align: right;
+}
+
+.name {
+  font-size: 100px;
+  line-height: 115px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+}
