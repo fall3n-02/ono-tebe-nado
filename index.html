@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/style.css">
   </head>
@@ -12,47 +13,73 @@
     <header class="header">
       <nav>
         <ul class="menu_list_header">
-          <li class="list_elem_no_dot no_underline first_elem">
-            главная
+          <li class="list_elem_no_dot">
+            <a href="#0" class="no_underline">
+              главная
+            </a>
           </li>
           <li>
-            посмотреть лоты
+            <a href="#0">
+              посмотреть лоты
+            </a>
           </li>
           <li>
-            об аукционе
+            <a href="#0">
+              об аукционе
+            </a>
           </li>
         </ul>
       </nav>
-      <img src="images/logo-black.svg" class="logo_header">
+      <img src="images/logo-black.svg" class="logo_black">
       <ul class="info">
         <li>
-          <a href="#0">
-            +9 999 555 5555
+          <a href="tel:+999955555">
+            +9 999 55 5555
           </a>
         </li>
         <li>
-          <a href="#0">
+          <a href="mailto:info@sobaka.ge">
             info@sobaka.ge
           </a>
         </li>
         <li class="elem_wrap">
-          наб. Принсенграхт 263- 265, Амстердам
+          <address class="adress">
+            наб. Принсенграхт 263- 265, Амстердам
+          </address>
         </li>
       </ul>
     </header>
     <main>
-      <section class="jambotron">
-        <div class="title">
-          <h1 class="name align_left">
-            ОНО
-          </h1>
-          <h1 class="name align_center">
-            ТЕБЕ
-          </h1>
-          <h1 class="name align_right">
-            НАДО
-          </h1>
+      <section class="cover overlay">
+        <div class="overlay">
+          <div class="title light_text">
+            <h1 class="name align_left">
+              оно
+            </h1>
+            <h1 class="name align_center">
+              тебе
+            </h1>
+            <h1 class="name align_right">
+              надо
+            </h1>
+          </div>
+          <div class="subtitle_and_button">
+            <p class="light_text subtitle">
+              Аукцион вещей, в которые никто не верил
+            </p>
+            <button class="button">
+              Сделать ставку
+            </button>
+          </div>
         </div>
+      </section>
+      <section class="lots">
+        <h2 class="lots_heading">
+          Лоты
+        </h2>
+        <ol class="lots_card_list">
+          <li class="card"></li>
+        </ol>
       </section>
     </main>
     <footer>
