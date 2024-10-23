@@ -11,78 +11,54 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <ul class="menu_list_header">
-          <li class="list_elem_no_dot">
-            <a href="#0" class="no_underline">
-              главная
-            </a>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item no_list_mark">
+            главная
           </li>
-          <li>
-            <a href="#0">
-              посмотреть лоты
-            </a>
+          <li class="header__links-list-item underline_black">
+            посмотреть лоты
           </li>
-          <li>
-            <a href="#0">
-              об аукционе
-            </a>
+          <li class="header__links-list-item underline_black">
+            об аукционе
           </li>
         </ul>
       </nav>
-      <img src="images/logo-black.svg" class="logo_black">
-      <ul class="info">
+      <img class="header__logo-image" src="images/logo-black.svg">
+      <ul class="contacts header_contacts">
         <li>
-          <a href="tel:+999955555">
-            +9 999 55 5555
-          </a>
+          <a class="underline_black" href="tel:+9 999 555 5555">+9 999 555 5555</a>
         </li>
         <li>
-          <a href="mailto:info@sobaka.ge">
-            info@sobaka.ge
-          </a>
+          <a class="underline_black" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         </li>
-        <li class="elem_wrap">
-          <address class="adress">
-            наб. Принсенграхт 263- 265, Амстердам
-          </address>
+        <li>
+          <address class="address">наб. Принсенграхт 263- 265, Амстердам</address>
         </li>
       </ul>
     </header>
-    <main>
-      <section class="cover overlay">
-        <div class="overlay">
-          <div class="title light_text">
-            <h1 class="name align_left">
-              оно
-            </h1>
-            <h1 class="name align_center">
-              тебе
-            </h1>
-            <h1 class="name align_right">
-              надо
-            </h1>
-          </div>
-          <div class="subtitle_and_button">
-            <p class="light_text subtitle">
-              Аукцион вещей, в которые никто не верил
-            </p>
-            <button class="button">
-              Сделать ставку
-            </button>
-          </div>
+    <section class="cover">
+      <div class="overlay">
+        <div class="cover__title">
+          <p class="aligned-text_left light_text">
+            о<span class="letter_spacing">но</span>
+          </p>
+          <p class="aligned-text_center light_text">
+            те<span class="letter_spacing">бе</span>
+          </p>
+          <p class="aligned-text_right light_text">
+            <span class="letter_spacing">н</span>адо
+          </p>
         </div>
-      </section>
-      <section class="lots">
-        <h2 class="lots_heading">
-          Лоты
-        </h2>
-        <ol class="lots_card_list">
-          <li class="card"></li>
-        </ol>
-      </section>
-    </main>
-    <footer>
-    </footer>
+        <div class="cover__description">
+          <p class="cover__description-text light_text">
+            Аукцион вещей, вкоторые никто не верил
+          </p>
+          <button class="bet-button light_text">
+            Сделать ставку
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
