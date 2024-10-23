@@ -296,7 +296,7 @@
   text-decoration: underline;
 }
 
-.footer__social-list{
+.footer__social-list {
   display: flex;
   justify-content: space-between;
   width: 240px;
