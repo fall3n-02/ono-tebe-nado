@@ -1,15 +1,16 @@
 .header {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1;
-  align-items: center;
-  margin: 92px 24px 0px 24px;
+  display: flex;
+  font-size: 18px;
+  margin: 88px 24px 0px 24px;
+}
+
+.header__menu {
+  margin: 48px 0px 39px 26.52px;
 }
 
 .header__links-list {
   display: flex;
-  flex-direction: row;
-  gap: 31.48px;
+  gap: 32.48px;
   list-style-type: circle;
 }
 
@@ -21,19 +22,25 @@
   border-bottom: 1px solid black;
 }
 
+.header__logo {
+  display: block;
+  margin-left: 42px;
+}
+
 .header__logo-image {
-  justify-self: center;
-  width: 124.05px;
-  height: 94.84px;
+  width: 136px;
 }
 
 .contacts {
   width: 240px;
   list-style-type: none;
+  line-height: 24.3px;
 }
 
 .header_contacts {
   justify-self: right;
+  margin-left: 194px;
+  margin-top: 10px;
 }
 
 .address {
@@ -72,7 +79,7 @@
   width: 1000px;
   margin: 165px 50px 0px 50px;
   font-weight: bold;
-  font-size: 66px;
+  font-size: 100px;
   line-height: 100px;
   letter-spacing: .3em;
   text-transform: uppercase;
@@ -107,11 +114,15 @@
 }
 
 .letter_spacing_n {
-  letter-spacing: .63em;
+  letter-spacing: .6em;
+}
+
+.letter_spacing_null {
+  letter-spacing: 0px;
 }
 
 .word_spacing {
-  word-spacing: 0.9em;
+  word-spacing: 0.8em;
 }
 
 .cover__description {
@@ -148,6 +159,7 @@
   margin-left: 40px;
   font-weight: bold;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
@@ -213,15 +225,14 @@
 
 .about {
   display: grid;
-  grid-template-columns: 364px 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 358px 1fr;
   width: 1052px;
   margin: 0px 24px 0px 24px;
 }
 
 .about__column {
   width: 693px;
-  margin-top: 133px;
+  margin-top: 137px;
 }
 
 .about__logo {
@@ -230,7 +241,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  margin-top: 35px;
+  margin-top: 36px;
   margin-left: 47px;
   border-radius: 50%;
   background-color: black;
@@ -257,7 +268,6 @@
 
 .about_paragraph {
   width: 688px;
-  height: 120px;
 }
 
 .footer {
@@ -266,6 +276,10 @@
   width: 1000px;
   margin: 180px 50px 88px 50px;
   font-size: 18px;
+}
+
+.footer__menu {
+  margin-top: 2.7px;
 }
 
 .footer__links-list {
